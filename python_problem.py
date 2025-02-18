@@ -52,3 +52,13 @@ list = [["Rifat", "Shajid", "Tutul"], [20, 30, 32]]
 single_list = (list[0] + list[1])
 
 print(single_list)
+
+
+# 13. Leap Year Checker: Write a Python program that takes a year as input and determines if it is a leap year or not.
+
+year = int(input("Enter a year: "))
+
+if (year % 400 == 0) or (year % 4 ==0 and year % 100 !=0):
+    print(f"{year} is Leap year")
+else:
+    print(f"{year} is Not-Leap year")
