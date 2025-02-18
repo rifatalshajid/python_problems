@@ -66,7 +66,17 @@ else:
 
 
 # 37. List Sorting: Write a Python program to sort a list of integers in ascending order.
+
 number = [10, 15, 9, 8, 0, 5, 80, 60, 45, 100]
 number.sort()
 
 print(number)
+
+
+# 05. Temperature Converter: Write a Python program that converts a temperature in Celsius to Fahrenheit. Take the Celsius temperature as input from the user.
+
+Celsius = int(input("Enter the temperature in Celsius Degree: "))
+
+Fahrenheit = ((Celsius * 9 / 5) + 32)
+
+print(Fahrenheit)
