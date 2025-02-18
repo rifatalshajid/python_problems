@@ -62,3 +62,11 @@ if (year % 400 == 0) or (year % 4 ==0 and year % 100 !=0):
     print(f"{year} is Leap year")
 else:
     print(f"{year} is Not-Leap year")
+
+
+
+# 37. List Sorting: Write a Python program to sort a list of integers in ascending order.
+number = [10, 15, 9, 8, 0, 5, 80, 60, 45, 100]
+number.sort()
+
+print(number)
