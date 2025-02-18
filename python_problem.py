@@ -43,3 +43,12 @@ elif b>c:
 
 else:
     print(f"The Largest Number is {c}")
+
+
+# 45. Flatten Nested List: Write a Python program to flatten a given nested list and convert it into a single-dimensional list.
+
+list = [["Rifat", "Shajid", "Tutul"], [20, 30, 32]]
+
+single_list = (list[0] + list[1])
+
+print(single_list)
