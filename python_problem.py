@@ -27,3 +27,19 @@ print(dataTypeCheck(10))
 print(dataTypeCheck(10.0))
 print(dataTypeCheck("Rifat"))
 print(dataTypeCheck(["Rifat", "Shajid"]))
+
+
+
+# 12. Largest of Three Numbers: Write a Python program that takes three numbers as input and prints the largest among them.
+a = int(input("Enter the First Number: "))
+b = int(input("Enter the Second Number: "))
+c = int(input("Enter the Third Number: "))
+
+if a>b:
+    print(f"The Largest Number is {a}")
+
+elif b>c:
+    print(f"The Largest Number is {b}")
+
+else:
+    print(f"The Largest Number is {c}")
