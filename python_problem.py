@@ -80,3 +80,12 @@ Celsius = int(input("Enter the temperature in Celsius Degree: "))
 Fahrenheit = ((Celsius * 9 / 5) + 32)
 
 print(Fahrenheit)
+
+
+# 04. Type Conversion: Given a list of integers, write a Python program to convert each element of the list to a string.
+
+number = [10, 15, 30, 40]
+
+string = [str(num) for num in number]
+
+print(string)
