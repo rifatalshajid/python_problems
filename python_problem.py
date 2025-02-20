@@ -122,3 +122,21 @@ if (single_character == "a") or (single_character == "e") or (single_character =
 
 else:
      print(f"{single_character} is Consonant")
+
+
+
+# 19. Number Ranges: Write a Python program that takes an integer as input and prints whether the number falls within the ranges: 0-50, 51-100, 101-150, or above 150.
+
+take_number = int(input("Enter the number: "))
+
+if 0<= take_number <=50:
+    print(f"The number {take_number} falls within the ranges: 0-50")
+
+elif 51<= take_number <=100:
+    print(f"The number {take_number} falls within the ranges: 51-100")
+
+elif 101<= take_number <=150:
+    print(f"The number {take_number} falls within the ranges: 101-150")
+
+elif 151<= take_number:
+    print(f"The number {take_number} above range 150")
