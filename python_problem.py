@@ -110,3 +110,15 @@ elif 18 <= input_time <21:
 
 else:
     print("Good Night!")
+
+
+
+# 15. Vowel or Consonant: Write a Python program that takes a single character as input and determines whether it is a vowel or a consonant.
+
+single_character = input("Enter a single_character here: ").lower()
+
+if (single_character == "a") or (single_character == "e") or (single_character == "i") or (single_character == "o") or (single_character == "u"):
+    print(f"{single_character} is vowel")
+
+else:
+     print(f"{single_character} is Consonant")
