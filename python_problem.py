@@ -89,3 +89,24 @@ number = [10, 15, 30, 40]
 string = [str(num) for num in number]
 
 print(string)
+
+
+# 16. Time Classification: Write a Python program that takes the time in hours (24-hour format) as input and prints “Good Morning”, “Good Afternoon”, “Good Evening”, or “Good Night” based on the time.
+
+input_time = int(input("Enter the time in 24-hour format: "))
+
+
+if 5 <= input_time <12:
+
+    print("Good Morning!")
+
+elif 12 <= input_time <18:
+
+    print("Good Afternoon!")
+
+elif 18 <= input_time <21:
+
+    print("Good Evening!")
+
+else:
+    print("Good Night!")
