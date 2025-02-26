@@ -140,5 +140,3 @@ elif 101<= take_number <=150:
 
 elif 151<= take_number:
     print(f"The number {take_number} above range 150")
-
--
