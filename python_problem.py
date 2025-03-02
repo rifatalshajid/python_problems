@@ -140,3 +140,7 @@ elif 101<= take_number <=150:
 
 elif 151<= take_number:
     print(f"The number {take_number} above range 150")
+
+
+# 41. List Element Count: Write a Python program to count the occurrences of a specific element in a given list.
+
